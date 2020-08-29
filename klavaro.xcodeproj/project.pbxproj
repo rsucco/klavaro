@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94AF48E724F9F380001F8762 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AF48E624F9F380001F8762 /* AppDelegate.swift */; };
+		94AF48E924F9F380001F8762 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AF48E824F9F380001F8762 /* SceneDelegate.swift */; };
+		94AF48EB24F9F380001F8762 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AF48EA24F9F380001F8762 /* ContentView.swift */; };
+		94AF48ED24F9F382001F8762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94AF48EC24F9F382001F8762 /* Assets.xcassets */; };
+		94AF48F024F9F382001F8762 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94AF48EF24F9F382001F8762 /* Preview Assets.xcassets */; };
+		94AF48F324F9F382001F8762 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94AF48F124F9F382001F8762 /* LaunchScreen.storyboard */; };
+		94AF48FE24F9F382001F8762 /* klavaroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AF48FD24F9F382001F8762 /* klavaroTests.swift */; };
+		94AF490924F9F382001F8762 /* klavaroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AF490824F9F382001F8762 /* klavaroUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94AF48FA24F9F382001F8762 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94AF48DB24F9F380001F8762 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94AF48E224F9F380001F8762;
+			remoteInfo = klavaro;
+		};
+		94AF490524F9F382001F8762 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94AF48DB24F9F380001F8762 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94AF48E224F9F380001F8762;
+			remoteInfo = klavaro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94AF48E324F9F380001F8762 /* klavaro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = klavaro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94AF48E624F9F380001F8762 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94AF48E824F9F380001F8762 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		94AF48EA24F9F380001F8762 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		94AF48EC24F9F382001F8762 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94AF48EF24F9F382001F8762 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		94AF48F224F9F382001F8762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94AF48F424F9F382001F8762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94AF48F924F9F382001F8762 /* klavaroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = klavaroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94AF48FD24F9F382001F8762 /* klavaroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = klavaroTests.swift; sourceTree = "<group>"; };
+		94AF48FF24F9F382001F8762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94AF490424F9F382001F8762 /* klavaroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = klavaroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94AF490824F9F382001F8762 /* klavaroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = klavaroUITests.swift; sourceTree = "<group>"; };
+		94AF490A24F9F382001F8762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94AF48E024F9F380001F8762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94AF48F624F9F382001F8762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94AF490124F9F382001F8762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94AF48DA24F9F380001F8762 = {
+			isa = PBXGroup;
+			children = (
+				94AF48E524F9F380001F8762 /* klavaro */,
+				94AF48FC24F9F382001F8762 /* klavaroTests */,
+				94AF490724F9F382001F8762 /* klavaroUITests */,
+				94AF48E424F9F380001F8762 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94AF48E424F9F380001F8762 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94AF48E324F9F380001F8762 /* klavaro.app */,
+				94AF48F924F9F382001F8762 /* klavaroTests.xctest */,
+				94AF490424F9F382001F8762 /* klavaroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94AF48E524F9F380001F8762 /* klavaro */ = {
+			isa = PBXGroup;
+			children = (
+				94AF48E624F9F380001F8762 /* AppDelegate.swift */,
+				94AF48E824F9F380001F8762 /* SceneDelegate.swift */,
+				94AF48EA24F9F380001F8762 /* ContentView.swift */,
+				94AF48EC24F9F382001F8762 /* Assets.xcassets */,
+				94AF48F124F9F382001F8762 /* LaunchScreen.storyboard */,
+				94AF48F424F9F382001F8762 /* Info.plist */,
+				94AF48EE24F9F382001F8762 /* Preview Content */,
+			);
+			path = klavaro;
+			sourceTree = "<group>";
+		};
+		94AF48EE24F9F382001F8762 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				94AF48EF24F9F382001F8762 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		94AF48FC24F9F382001F8762 /* klavaroTests */ = {
+			isa = PBXGroup;
+			children = (
+				94AF48FD24F9F382001F8762 /* klavaroTests.swift */,
+				94AF48FF24F9F382001F8762 /* Info.plist */,
+			);
+			path = klavaroTests;
+			sourceTree = "<group>";
+		};
+		94AF490724F9F382001F8762 /* klavaroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				94AF490824F9F382001F8762 /* klavaroUITests.swift */,
+				94AF490A24F9F382001F8762 /* Info.plist */,
+			);
+			path = klavaroUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94AF48E224F9F380001F8762 /* klavaro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94AF490D24F9F382001F8762 /* Build configuration list for PBXNativeTarget "klavaro" */;
+			buildPhases = (
+				94AF48DF24F9F380001F8762 /* Sources */,
+				94AF48E024F9F380001F8762 /* Frameworks */,
+				94AF48E124F9F380001F8762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = klavaro;
+			productName = klavaro;
+			productReference = 94AF48E324F9F380001F8762 /* klavaro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94AF48F824F9F382001F8762 /* klavaroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94AF491024F9F382001F8762 /* Build configuration list for PBXNativeTarget "klavaroTests" */;
+			buildPhases = (
+				94AF48F524F9F382001F8762 /* Sources */,
+				94AF48F624F9F382001F8762 /* Frameworks */,
+				94AF48F724F9F382001F8762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94AF48FB24F9F382001F8762 /* PBXTargetDependency */,
+			);
+			name = klavaroTests;
+			productName = klavaroTests;
+			productReference = 94AF48F924F9F382001F8762 /* klavaroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94AF490324F9F382001F8762 /* klavaroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94AF491324F9F382001F8762 /* Build configuration list for PBXNativeTarget "klavaroUITests" */;
+			buildPhases = (
+				94AF490024F9F382001F8762 /* Sources */,
+				94AF490124F9F382001F8762 /* Frameworks */,
+				94AF490224F9F382001F8762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94AF490624F9F382001F8762 /* PBXTargetDependency */,
+			);
+			name = klavaroUITests;
+			productName = klavaroUITests;
+			productReference = 94AF490424F9F382001F8762 /* klavaroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94AF48DB24F9F380001F8762 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Ryan Succo";
+				TargetAttributes = {
+					94AF48E224F9F380001F8762 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					94AF48F824F9F382001F8762 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 94AF48E224F9F380001F8762;
+					};
+					94AF490324F9F382001F8762 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 94AF48E224F9F380001F8762;
+					};
+				};
+			};
+			buildConfigurationList = 94AF48DE24F9F380001F8762 /* Build configuration list for PBXProject "klavaro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94AF48DA24F9F380001F8762;
+			productRefGroup = 94AF48E424F9F380001F8762 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94AF48E224F9F380001F8762 /* klavaro */,
+				94AF48F824F9F382001F8762 /* klavaroTests */,
+				94AF490324F9F382001F8762 /* klavaroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94AF48E124F9F380001F8762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94AF48F324F9F382001F8762 /* LaunchScreen.storyboard in Resources */,
+				94AF48F024F9F382001F8762 /* Preview Assets.xcassets in Resources */,
+				94AF48ED24F9F382001F8762 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94AF48F724F9F382001F8762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94AF490224F9F382001F8762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94AF48DF24F9F380001F8762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94AF48E724F9F380001F8762 /* AppDelegate.swift in Sources */,
+				94AF48E924F9F380001F8762 /* SceneDelegate.swift in Sources */,
+				94AF48EB24F9F380001F8762 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94AF48F524F9F382001F8762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94AF48FE24F9F382001F8762 /* klavaroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94AF490024F9F382001F8762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94AF490924F9F382001F8762 /* klavaroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94AF48FB24F9F382001F8762 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94AF48E224F9F380001F8762 /* klavaro */;
+			targetProxy = 94AF48FA24F9F382001F8762 /* PBXContainerItemProxy */;
+		};
+		94AF490624F9F382001F8762 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94AF48E224F9F380001F8762 /* klavaro */;
+			targetProxy = 94AF490524F9F382001F8762 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94AF48F124F9F382001F8762 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94AF48F224F9F382001F8762 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94AF490B24F9F382001F8762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94AF490C24F9F382001F8762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94AF490E24F9F382001F8762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"klavaro/Preview Content\"";
+				DEVELOPMENT_TEAM = ZW48GCFVC4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = klavaro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rsucco.klavaro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94AF490F24F9F382001F8762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"klavaro/Preview Content\"";
+				DEVELOPMENT_TEAM = ZW48GCFVC4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = klavaro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rsucco.klavaro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		94AF491124F9F382001F8762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZW48GCFVC4;
+				INFOPLIST_FILE = klavaroTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rsucco.klavaroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/klavaro.app/klavaro";
+			};
+			name = Debug;
+		};
+		94AF491224F9F382001F8762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZW48GCFVC4;
+				INFOPLIST_FILE = klavaroTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rsucco.klavaroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/klavaro.app/klavaro";
+			};
+			name = Release;
+		};
+		94AF491424F9F382001F8762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZW48GCFVC4;
+				INFOPLIST_FILE = klavaroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rsucco.klavaroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = klavaro;
+			};
+			name = Debug;
+		};
+		94AF491524F9F382001F8762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZW48GCFVC4;
+				INFOPLIST_FILE = klavaroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rsucco.klavaroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = klavaro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94AF48DE24F9F380001F8762 /* Build configuration list for PBXProject "klavaro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94AF490B24F9F382001F8762 /* Debug */,
+				94AF490C24F9F382001F8762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94AF490D24F9F382001F8762 /* Build configuration list for PBXNativeTarget "klavaro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94AF490E24F9F382001F8762 /* Debug */,
+				94AF490F24F9F382001F8762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94AF491024F9F382001F8762 /* Build configuration list for PBXNativeTarget "klavaroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94AF491124F9F382001F8762 /* Debug */,
+				94AF491224F9F382001F8762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94AF491324F9F382001F8762 /* Build configuration list for PBXNativeTarget "klavaroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94AF491424F9F382001F8762 /* Debug */,
+				94AF491524F9F382001F8762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94AF48DB24F9F380001F8762 /* Project object */;
+}
